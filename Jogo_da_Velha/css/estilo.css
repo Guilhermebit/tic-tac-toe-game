@@ -1,0 +1,146 @@
+
+/* TELA PRINCIPAL */
+input[type=text] {
+
+	padding: 10px;
+	font-size: 16px;
+
+}
+
+#container_principal {
+
+	color: red;
+	font-weight: bold;
+	margin: 160px auto 0 auto;
+	width: 680px;
+
+}
+
+#placar a{
+
+	text-decoration: none;
+	color: red;
+}
+
+#placar a:hover {
+
+	text-decoration: underline;
+}
+
+#container_principal h1, h3{
+
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#menu_jogadores {
+
+	border: 5px double red;
+	padding: 50px;
+
+}
+
+#btn_iniciar_jogo {
+
+	cursor: pointer;
+}
+
+/* PALCO DO JOGO */
+
+#placar_jogadores {
+
+	margin: 20px auto;
+	width: 290px;
+	text-align: center;
+	
+}
+
+#placar_jogadores table td {
+
+	padding: 10px;
+}
+
+#revanche {
+
+	background-color: red;
+	padding: 5px;
+	text-align: center;
+	border: 5px double #fff;
+	font-size: 20px;
+	width: 100px;
+	margin: 20px auto;
+	cursor: pointer;
+	color: #fff;
+}
+
+#grava_placar {
+
+	background-color: red;
+	padding: 5px;
+	text-align: center;
+	border: 5px double #fff;
+	font-size: 20px;
+	width: 100px;
+	margin: 20px auto;
+	cursor: pointer;
+	color: #fff;
+}
+
+#menu_principal {
+
+	background-color: red;
+	padding: 5px;
+	text-align: center;
+	border: 5px double #fff;
+	font-size: 20px;
+	width: 100px;
+	margin: 20px auto;
+	cursor: pointer;
+	color: #fff;
+
+}
+
+/* PÁGINA DE RANKING */
+
+#ranking_jv {
+
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+#ranking_jv h2{
+
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	margin: 50px auto 120px auto;
+
+}
+
+#ranking_player th {
+
+	text-align: center;
+}
+
+#voltar_menu_principal {
+
+	background-color: red;
+	padding: 5px;
+	text-align: center;
+	border: 5px double #fff;
+	font-size: 20px;
+	width: 200px;
+	margin: 20px auto;
+	cursor: pointer;
+	color: #fff;
+
+}
+
+#voltar_menu_principal a {
+
+	text-decoration: none;
+	color: #fff;
+}
